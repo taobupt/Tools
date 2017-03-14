@@ -92,3 +92,33 @@ print('-----------quiz2---------------')
 pe=[17,19,11]
 pc=[21,25,23]
 print(getMangitiude(getSubVector(pe,pc)))
+
+
+print('----------quiz3-------')
+
+
+edge1=[6,4,6]
+edge2=[2,10,6]
+vec=[-36,-24,52]
+# print(getDotProduct(edge1,vec))
+# print(getDotProduct(edge2,vec))
+
+# vec1=[-0.53,-0.35,0.77]
+# point=[0,7,40]
+# print(getDotProduct(vec1,point)-28.35)
+# u=0.63
+# v=0.93
+# print(11*u+18*v)
+
+print('---quiz8---')
+# v1=[-0.31,0.00,0.95]
+# v2=[0.61,0.00,0.79]
+# print(getDotProduct(v1,v2))
+npe=[-0.31,0,0.95]
+n=[0.61,0.00,0.79]
+print(getSubVector(npe,multiplyVector(2*getDotProduct(npe,n),n)))
+
+
+
+
+
